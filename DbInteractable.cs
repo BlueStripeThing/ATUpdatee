@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATUpdaterBot
 {
-    internal class DbInteractable
+    internal class DbInteractable // Многовероятно превратить в интерфейс
     {
         public virtual bool ToDB(String connectionString) { return false; }
         public virtual bool CheckDB(String connectionString) { return false; }
